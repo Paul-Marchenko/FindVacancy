@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/findvacancy.iml" filepath="$PROJECT_DIR$/.idea/modules/findvacancy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/findvacancy_main.iml" filepath="$PROJECT_DIR$/.idea/modules/findvacancy_main.iml" group="findvacancy" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/findvacancy_test.iml" filepath="$PROJECT_DIR$/.idea/modules/findvacancy_test.iml" group="findvacancy" />
+    </modules>
+  </component>
+</project>
