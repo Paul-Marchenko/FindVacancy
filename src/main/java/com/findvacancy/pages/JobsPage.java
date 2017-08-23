@@ -19,6 +19,7 @@ public class JobsPage extends MainPage {
     SelenideElement allCitylabel = $("#container > div.content-wrap > div > div.row.m-db > div.cell.m-db > div > div.row > div:nth-child(3) > div > div > ul.selected > li");
     SelenideElement kyivlabel = $("#container > div.content-wrap > div > div.row.m-db > div.cell.m-db > div > div.row > div:nth-child(3) > div > div > ul.other > li:nth-child(1) > a");
     Select allCategoriesDropDownList = new Select($("#container > div.header > div.b-sub-head-n > div.b-jobs-search > form > select"));
+    SelenideElement rating = $("#container > div.header > div.b-sub-head-n > div.wrap > ul > li.rank > a");
 
     public JobsPage selectCategory(String category) {
         allCategoriesDropDownList.selectByVisibleText(category);
@@ -31,7 +32,8 @@ public class JobsPage extends MainPage {
         return this;
 
     }
-    public void checkBoxChecked(){
+
+    public void checkBoxChecked() {
         keyWordCheckBox.click();
     }
 }
